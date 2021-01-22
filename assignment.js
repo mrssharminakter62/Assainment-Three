@@ -9,8 +9,16 @@ function kilometerToMeter(kilometer) {
 
 // Problem solving-----two
 
-
-
+function budgetCalculator(clock, mobile, laptop) {
+    
+    var clock = 50;
+    var mobile =100;
+    var laptop = 500;
+    var total = clock + mobile + laptop;
+    return total;  
+ }
+//  var total = budgetCalculator();
+//  console.log(total);
 
 
 
