@@ -1,3 +1,4 @@
+// https://github.com/mrssharminakter62/Assainment-Three/blob/main/assignment.js
 //  Problem solving---one
 
 function kilometerToMeter(kilometer) {
@@ -11,16 +12,14 @@ function kilometerToMeter(kilometer) {
 
 function budgetCalculator(clock, mobile, laptop) {
     
-    var clock = 50;
-    var mobile =100;
-    var laptop = 500;
+    var clock = 5 * 50;
+    var mobile =2 * 100;
+    var laptop =3 * 500;
     var total = clock + mobile + laptop;
     return total;  
  }
-//  var total = budgetCalculator();
-//  console.log(total);
-
-
+ // var total = budgetCalculator(5, 2, 3);
+  //console.log(total);
 
 // Problem solving---------Three
 
@@ -47,7 +46,6 @@ function hotelCost(night) {
 // var total =hotelCost(27);
 // console.log(total);
 
-
 //  Problem solving----Four
 
 var megaFriend = ["Mari", "Popy",  "Mim", "Sharmin", "Rosa"]
@@ -58,5 +56,4 @@ for(var i = 0; i < megaFriend.length; i++){
         max = bigName;
     }
 }
-//  console.log(max);
-
+// console.log(max);
