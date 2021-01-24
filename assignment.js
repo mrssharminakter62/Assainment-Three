@@ -8,20 +8,21 @@ function kilometerToMeter(kilometer) {
 // var walked = kilometerToMeter(5000);
 // console.log(walked);
 
-// Problem solving-----two
+// Problem solving-----two(budgetCalculator)
+function budgetCalculator(watch, mobile, laptop){
+    if(typeof watch =='number' && typeof mobile =='number' && typeof laptop =='number'){
+         var total =(watch * 50) + ( mobile * 100) +(laptop * 500);
+          return total;
+        }
+        else{
+            return "please enter value"
+        }
+       
+   }
+//    var total = budgetCalculator(10, 2, 5);
+//    console.log(total);
 
-function budgetCalculator(clock, mobile, laptop) {
-    
-    var clock = 5 * 50;
-    var mobile =2 * 100;
-    var laptop =3 * 500;
-    var total = clock + mobile + laptop;
-    return total;  
- }
- // var total = budgetCalculator(5, 2, 3);
-  //console.log(total);
-
-// Problem solving---------Three
+// Problem solving---------Three(hotelCost)
 
 function hotelCost(night) {
     var rent = 0;
@@ -56,4 +57,5 @@ for(var i = 0; i < megaFriend.length; i++){
         max = bigName;
     }
 }
-// console.log(max);
+//  console.log(max);
+
