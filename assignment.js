@@ -8,6 +8,22 @@ function kilometerToMeter(kilometer) {
 // var walked = kilometerToMeter(5000);
 // console.log(walked);
 
+//   problem-------- (kilometerToMeter)
+
+function kilometerToMeter(kilometer){
+    if(typeof kilometer == "number"){
+        if(kilometer < 0){
+         return 'kilometer not'
+        }
+        else{
+            var meter = kilometer /1000;
+            return meter
+        }
+    }
+}
+// var walked =kilometerToMeter(50000);
+// console.log(walked);
+
 // Problem solving-----two(budgetCalculator)
 function budgetCalculator(watch, mobile, laptop){
     if(typeof watch =='number' && typeof mobile =='number' && typeof laptop =='number'){
@@ -56,6 +72,7 @@ for(var i = 0; i < megaFriend.length; i++){
     if(bigName > max){
         max = bigName;
     }
+    
 }
 //  console.log(max);
 
