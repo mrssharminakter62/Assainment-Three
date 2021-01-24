@@ -1,13 +1,6 @@
 // https://github.com/mrssharminakter62/Assainment-Three/blob/main/assignment.js
 //  Problem solving---one
 
-function kilometerToMeter(kilometer) {
-    var meter = kilometer / 1000;
-    return meter;
-}
-// var walked = kilometerToMeter(5000);
-// console.log(walked);
-
 //   problem-------- (kilometerToMeter)
 
 function kilometerToMeter(kilometer){
@@ -65,14 +58,18 @@ function hotelCost(night) {
 
 //  Problem solving----Four
 
-var megaFriend = ["Mari", "Popy",  "Mim", "Sharmin", "Rosa"]
-var max = megaFriend [0];
-for(var i = 0; i < megaFriend.length; i++){
-    var bigName = megaFriend [i];
-    if(bigName > max){
+function  megaFriend(friend){
+    var max = friend [0];
+for(var i = 0; i < friend.length; i++){
+    var bigName = friend [i];
+    if(bigName.length > max.length){
         max = bigName;
-    }
-    
+    }  
 }
-//  console.log(max);
+ return max;
+}
+var result =megaFriend( ["Mari", "Popy",  "Mim", "Sharmin Islam", "Rosa"]);
+// console.log(result);
+
+
 
